@@ -18,8 +18,9 @@ public class DefaultProducerServiceImpl implements ProducerService {
 	public void produce(String content) {
 		for (int i = 0; i < 10; i++) {
 			logger.debug(">>FaceYe -- kafka publish msg,index is:"+i);
-			this.kafkaTemplate.send("default-msg", "I am a test msg,index is:" + i);
+			this.kafkaTemplate.send("default-msg", "I am a test msg,index is :" + i);
 		}
 	}
+	
 
 }

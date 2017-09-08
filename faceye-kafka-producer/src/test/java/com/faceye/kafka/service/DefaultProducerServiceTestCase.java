@@ -11,9 +11,13 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class DefaultProducerServiceTestCase {
 	@Autowired
-    private ProducerService defaultProducerService=null;
+	private ProducerService defaultProducerService = null;
+
 	@Test
-	public void testDefaultProducer() throws Exception{
-		defaultProducerService.produce("a test message");
+	public void testDefaultProducer() throws Exception {
+		while (true) {
+			defaultProducerService.produce("a test message 2 spark now ");
+			Thread.sleep(1000L);
+		}
 	}
 }
