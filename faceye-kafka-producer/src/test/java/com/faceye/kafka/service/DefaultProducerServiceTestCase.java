@@ -17,7 +17,7 @@ public class DefaultProducerServiceTestCase {
 	public void testDefaultProducer() throws Exception {
 		while (true) {
 			defaultProducerService.produce("a test message 2 spark now ");
-			Thread.sleep(1000L);
+			Thread.sleep(3000L);
 		}
 	}
 }

@@ -13,7 +13,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.3.RELEASE</version>
+		<version>2.2.5.RELEASE</version>
 	</parent>
 
 	<!-- Add typical dependencies for a web application -->
@@ -35,11 +35,18 @@
 		<dependency>
 			<groupId>org.springframework.kafka</groupId>
 			<artifactId>spring-kafka</artifactId>
-			<version>1.2.0.RELEASE</version>
+			<version>2.4.4.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-logging</artifactId>
+		</dependency>
+
+
+		<dependency>
+		   <groupId>com.faceye</groupId>
+		   <artifactId>faceye-boot-util</artifactId>
+		   <version>1.0</version>
 		</dependency>
 
 	</dependencies>
@@ -56,6 +63,7 @@
 
 	<!-- Add Spring repositories -->
 	<!-- (you don't need this if you are using a .RELEASE version) -->
+	<!--
 	<repositories>
 		<repository>
 			<id>spring-snapshots</id>
@@ -79,4 +87,5 @@
 			<url>http://repo.spring.io/milestone</url>
 		</pluginRepository>
 	</pluginRepositories>
+	-->
 </project>

@@ -20,5 +20,4 @@ public class DefaultConsumerServiceImpl implements ConsumerService {
 	public void consume(String content) {
 	   logger.debug(">>FaceYe Reveive kafka msg is:"+content);
 	}
-
 }
