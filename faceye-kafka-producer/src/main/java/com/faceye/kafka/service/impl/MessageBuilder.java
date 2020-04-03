@@ -19,6 +19,7 @@ public class MessageBuilder {
         }else{
             message.setName("dlink");
         }
+        count++;
         message.setTimestamp(System.currentTimeMillis());
         msg = Json.toJson(message);
         return msg;

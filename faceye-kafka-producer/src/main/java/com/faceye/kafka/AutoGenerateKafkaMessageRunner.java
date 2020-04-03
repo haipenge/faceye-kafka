@@ -17,12 +17,17 @@ import org.springframework.stereotype.Component;
 public class AutoGenerateKafkaMessageRunner implements ApplicationRunner {
     @Autowired
     private ProducerService producerService=null;
+    private Integer count =0;
     @Override
     public void run(ApplicationArguments args) throws Exception {
         while(true) {
             String msg = MessageBuilder.builder();
             producerService.produce(msg);
-            Thread.sleep(2000L);
+            count++;
+            if(count>500) {
+                Thread.sleep(1L);
+                count=0;
+            }
         }
     }
 }
