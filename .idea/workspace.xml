@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1acb0b59-61ab-485e-925e-b85e66c9742e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/faceye-kafka-producer/src/main/java/com/faceye/kafka/AutoGenerateKafkaMessageRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/faceye-kafka-producer/src/main/java/com/faceye/kafka/AutoGenerateKafkaMessageRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faceye-kafka-producer/src/main/java/com/faceye/kafka/service/impl/MessageBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/faceye-kafka-producer/src/main/java/com/faceye/kafka/service/impl/MessageBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faceye-kafka-producer/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/faceye-kafka-producer/start.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/faceye-kafka-producer/target/" />
@@ -43,10 +41,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/faceye-kafka-producer/src/main/java/com/faceye/kafka/service/impl/Message.java">
+        <entry file="file://$PROJECT_DIR$/faceye-kafka-producer/src/test/java/com/faceye/kafka/service/DefaultProducerServiceTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -63,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/faceye-kafka-producer/src/main/java/com/faceye/kafka/AutoGenerateKafkaMessageRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            <state relative-caret-position="158">
+              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -242,6 +240,30 @@
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="faceye-kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="faceye-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="faceye-kafka-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="faceye-kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="faceye-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="faceye-kafka-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="faceye-kafka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="faceye-kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="faceye-kafka-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -345,7 +367,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584419734124</updated>
       <workItem from="1584419735681" duration="12122000" />
-      <workItem from="1585492298616" duration="15652000" />
+      <workItem from="1585492298616" duration="16388000" />
     </task>
     <servers />
   </component>
@@ -382,7 +404,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27774000" />
+    <option name="totallyTimeSpent" value="28510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="734" extended-state="6" />
@@ -533,13 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faceye-kafka-producer/src/test/java/com/faceye/kafka/service/DefaultProducerServiceTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/faceye-kafka-producer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -613,10 +628,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/faceye-kafka-producer/src/test/java/com/faceye/kafka/service/DefaultProducerServiceTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/faceye-kafka-producer/src/main/java/com/faceye/kafka/AutoGenerateKafkaMessageRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="158">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -23,11 +23,12 @@ public class AutoGenerateKafkaMessageRunner implements ApplicationRunner {
         while(true) {
             String msg = MessageBuilder.builder();
             producerService.produce(msg);
-            count++;
-            if(count>500) {
-                Thread.sleep(1L);
-                count=0;
-            }
+            Thread.sleep(1000L);
+//            count++;
+//            if(count>500) {
+//                Thread.sleep(1L);
+//                count=0;
+//            }
         }
     }
 }
