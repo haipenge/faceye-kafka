@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1acb0b59-61ab-485e-925e-b85e66c9742e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/faceye-kafka-producer/src/main/java/com/faceye/kafka/AutoGenerateKafkaMessageRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/faceye-kafka-producer/src/main/java/com/faceye/kafka/AutoGenerateKafkaMessageRunner.java" afterDir="false" />
-    </list>
+    <list default="true" id="1acb0b59-61ab-485e-925e-b85e66c9742e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/faceye-kafka-producer/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/faceye-kafka-producer/src/main/java/com/faceye/kafka/AutoGenerateKafkaMessageRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+            <state relative-caret-position="188">
+              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -367,7 +365,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584419734124</updated>
       <workItem from="1584419735681" duration="12122000" />
-      <workItem from="1585492298616" duration="16388000" />
+      <workItem from="1585492298616" duration="16905000" />
     </task>
     <servers />
   </component>
@@ -404,7 +402,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28510000" />
+    <option name="totallyTimeSpent" value="29027000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="734" extended-state="6" />
@@ -637,8 +635,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/faceye-kafka-producer/src/main/java/com/faceye/kafka/AutoGenerateKafkaMessageRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        <state relative-caret-position="188">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
